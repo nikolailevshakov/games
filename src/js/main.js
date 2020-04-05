@@ -11,4 +11,7 @@ $('.ball_bouncing').on('click', function() {
 });
 $('.flying_bird').on('click', function() {
     location.href = 'flyingBird.html';
-})
+});
+$('.who_first').on('click', function() {
+    location.href = 'whoFirst.html';
+});
