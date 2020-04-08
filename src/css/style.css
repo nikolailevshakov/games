@@ -44,6 +44,28 @@ h1 {
 .info .game:hover {  
     background-color: #FFF05F;
 }
+.main form {
+    display: block;
+    margin: 50px auto;
+}
+.main form input {
+    border: 2px solid #0F6180;
+    border-radius: 5px;
+    background-color: #0F6180;
+    color:  #FFF05F;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+.main form input:hover {
+    cursor: pointer;
+    background-color: black;
+}
+.main form button {
+    display: block;
+    margin: 20px auto;
+    height: 60px;
+}
 #canvas {
     position: absolute;
     right: 5%;

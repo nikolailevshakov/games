@@ -3,6 +3,11 @@ $(document).ready(function() {
     $('h1').fadeIn(1000, function() {
         $('.game').css("top", "40%");
     });
+
+    $('form button').on('click', function() {
+        // location.href = ''
+    });
+
 });
 
 // Меню игр
